@@ -9,13 +9,13 @@ const About = () => {
             </div>
 
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium ullam qui nisi ex debitis commodi, praesentium asperiores assumenda pariatur ea rerum eum odio corrupti officia iure cupiditate facere! Dolorem aliquid animi quaerat provident ipsum ratione, nobis enim ipsa nemo ea quidem? Beatae assumenda itaque voluptatum eveniet temporibus aut facere!
+            I'm pursuing B.E from Sri Sairam College of Engineering, Bangalore, India with specialization in Computer Engineering. I am a technology enthusiast and have been learning different programming languages and have handson experience specially in Python. I have done projects in Machine Learning & Artificial Intelligence using TensorFlow, Keras, OpenCV,etc.
             </p>
 
             <br />
 
             <p className='text-xl'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, provident. Libero pariatur fuga quia! Minus ducimus officiis molestiae, assumenda vitae iste, laudantium aliquid quae autem adipisci ipsum atque nisi molestias voluptas nam repudiandae officia odio dignissimos sunt corporis ex! Sunt voluptatem voluptas assumenda? Fugiat deserunt quasi dolorum praesentium sit veniam!
+            Besides programming I also have knowledge in database management using MySQL. Currently I'm developing skills for being an excellent frontend developer and have designed few websites using HTML, CSS, Javascript, React and Tailwind. I love to work as a freelancer either as a python developer or a frontend developer.
             </p>
         </div>
     </div>

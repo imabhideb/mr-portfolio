@@ -11,7 +11,7 @@ const SocialLinks = () => {
             child:(
                 <>LinkedIn <FaLinkedinIn size={30}/></>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/abhijit-deb/',
             style: 'rounded-tr-md'
         },
         {
@@ -19,7 +19,7 @@ const SocialLinks = () => {
             child:(
                 <>GitHub <FaGithub size={30}/></>
             ),
-            href: 'https://github.com',
+            href: 'https://github.com/imabhideb',
             
         },
         {
@@ -27,7 +27,7 @@ const SocialLinks = () => {
             child:(
                 <>Mail <HiOutlineMail size={30}/></>
             ),
-            href: 'mailto:foo@gmail.com',
+            href: 'mailto:imabhijitdeb@gmail.com',
             
         },
         {
@@ -35,7 +35,7 @@ const SocialLinks = () => {
             child:(
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            href: 'https://linkedin.com',
+            href: '/resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },

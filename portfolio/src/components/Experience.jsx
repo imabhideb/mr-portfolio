@@ -5,8 +5,11 @@ import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import github from '../assets/github.png'
-import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
+// import nextjs from '../assets/nextjs.png'
+// import graphql from '../assets/graphql.png'
+import C_program from '../assets/C_program.png'
+import python from '../assets/python.png'
+import tensorflow from '../assets/tensorflow.png'
 
 
 const Experience = () => {
@@ -44,18 +47,24 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: 'Nextjs',
-      style: 'shadow-white'
+      src: python,
+      title: 'Python',
+      style: 'shadow-yellow-600'
     },
     {
       id: 7,
-      src: graphql,
-      title: 'Graphql',
-      style: 'shadow-pink-400'
+      src: tensorflow,
+      title: 'TensorFlow',
+      style: 'shadow-orange-600'
     },
     {
       id: 8,
+      src: C_program,
+      title: 'C Programming',
+      style: 'shadow-blue-500'
+    },
+    {
+      id: 9,
       src: github,
       title: 'Github',
       style: 'shadow-gray-400'
@@ -68,10 +77,10 @@ const Experience = () => {
         
         <div>
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-          <p className='py-6'>These are the technologies I have worked on</p>
+          {/* <p className='py-6'>These are the technologies I have worked on</p> */}
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center my-6 py-8 px-12 sm:px-0'>
 
           {techs.map(({id, src,title,style}) =>
 
