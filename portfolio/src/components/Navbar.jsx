@@ -33,12 +33,12 @@ const Navbar = () => {
 return (
     <div className='flex w-full h-20 justify-between items-center bg-black text-white px-4 mx-auto fixed'>
         <div>
-            <h1 className=' text-5xl font-signature ml-4 py-4'>Tech Codiac</h1>
+            <h1 className=' text-5xl md:text-4xl font-signature ml-4 py-4'>Tech Codiac</h1>
         </div>
-        <ul className='hidden md:flex px-20 space-x-10 flex-row items-center '>
+        <ul className='hidden md:flex md:px-20 px-0 md:gap-10 gap-4 flex-row items-center '>
 
             {links.map(({id, link}) => (
-                <li key={id} className='px-4 cursor-pointer font-medium text-gray-400 hover:scale-105 duration-200 capitalize'>
+                <li key={id} className='md:px-4 px-0 cursor-pointer font-medium text-gray-400 hover:scale-105 duration-200 capitalize'>
                     <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
             ))}
